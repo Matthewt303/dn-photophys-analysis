@@ -46,6 +46,8 @@ license = "MIT"
 license-files = ["LICEN[CS]E.*"]
 keywords = ["STORM", "single-molecule", "localisation"]
 
+[tool.hatch.build.targets.wheel]
+packages = ["src/dn_photophys_analysis"]
 
 [project.optional-dependencies]
 dev = ["ruff >= 0.14.0"]
