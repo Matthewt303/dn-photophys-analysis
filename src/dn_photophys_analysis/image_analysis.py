@@ -1,10 +1,9 @@
 import numpy as np
 import cv2 as cv
-from numba import jit, prange
+from numba import jit
 from numba.typed import List
 from skimage.feature import peak_local_max
 from skimage.filters import difference_of_gaussians
-import matplotlib.pyplot as plt
 
 def extract_local_maxima(image, threshold):
 

@@ -13,13 +13,13 @@ def check_args(args: object):
         if not arg:
             raise TypeError("One or more required arguments are missing.")
     
-    if not os.path.isdir(arg_dict["image_path"]):
+    if not os.path.isfile(arg_dict["image_path"]):
         raise FileNotFoundError("Input image does not exist")
 
     if not os.path.isdir(arg_dict["output_path"]):
         raise FileNotFoundError("Output folder does not exist")
 
-    if not os.path.isdir(arg_dict["dn_image_path"]):
+    if not os.path.isfile(arg_dict["dn_image_path"]):
         raise FileNotFoundError("Denoised image does not exist.")
     
     if arg_dict["pixel_size_um"] <= 0:

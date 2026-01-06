@@ -1,8 +1,7 @@
 import numpy as np
 from numba import jit, prange
 import math
-from image_analysis import convert_pix_to_um
-import matplotlib.pyplot as plt
+from dn_photophys_analysis.image_analysis import convert_pix_to_um
 
 ## PARAMETER INITIALISATION ##
 #-------------------------------------------------#
