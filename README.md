@@ -37,4 +37,4 @@ Note that the script has a relatively high memory usage (~32 GB but depends on f
 
 The expressions for the PSF and its derivatives are from [Picasso](https://github.com/jungmannlab/picasso) [1].
 
-[1](https://www.nature.com/articles/nprot.2017.024) Schnitzbauer, J., Strauss, M., Schlichthaerle, T. et al. Super-resolution microscopy with DNA-PAINT. *Nature Protocols* **12**, 1198–1228 (2017)
+[1](https://github.com/jungmannlab/picasso) Schnitzbauer, J., Strauss, M., Schlichthaerle, T. et al. Super-resolution microscopy with DNA-PAINT. *Nature Protocols* **12**, 1198–1228 (2017)
